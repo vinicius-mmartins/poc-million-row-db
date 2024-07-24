@@ -7,7 +7,9 @@ psql -p 5432 -h localhost -U postgres
 ~~~
 
 ver erro no container:
-docker logs --tail 50 --follow --timestamps mediawiki_web_1
+~~~
+docker logs --tail 50 --follow --timestamps postgres_db
+~~~
 
 ~~~
 \l   #list dbs
